@@ -1,6 +1,7 @@
 {
   "name": "viser-technosys-website",
   "version": "0.1.0",
+  "homepage" : "http://github.com/amlubkesh/demo-pro",
   "private": true,
   "dependencies": {
     "@types/react-scroll": "^1.5.4",
@@ -22,6 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages-d build",
   },
   "eslintConfig": {
     "extends": "react-app"
